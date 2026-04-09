@@ -37,12 +37,12 @@ Edit `.env` and set real values, especially:
 
 Add these secrets in GitHub repo settings:
 
-- `VPS_HOST` (e.g. `203.0.113.10`)
-- `VPS_USER` (SSH user)
-- `VPS_SSH_KEY` (private key content)
-- `VPS_PORT` (optional, defaults to `22`)
-- `VPS_APP_DIR` (e.g. `/opt/nse-smart-investor-api`)
-- `GHCR_USERNAME` (GitHub username or machine user with package read access)
+- `VPS_HOST` (e.g. `203.0.113.10`) tick
+- `VPS_USER` (SSH user) tick
+- `VPS_SSH_KEY` (private key content) tick
+- `VPS_PORT` (optional, defaults to `22`) tick
+- `VPS_APP_DIR` (e.g. `/opt/nse-smart-investor-api`) tick 
+- `GHCR_USERNAME` (GitHub username or machine user with package read access) tick
 - `GHCR_TOKEN` (classic PAT with at least `read:packages`)
 
 ## 3) Push to deploy
